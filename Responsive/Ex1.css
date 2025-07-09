@@ -1,0 +1,91 @@
+@media screen and (min-width:992px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Couleur1 {
+    
+    background-color:red;
+    height: 25vh;
+    width:100vw;
+    
+}
+.Couleur2 {
+    background-color:yellow;
+    height: 75vh;
+    flex-grow: 1;
+}
+
+.Couleur3 {
+    background-color:blue;
+    height: 75vh;
+    flex-grow: 1;
+}
+
+.Couleur4 {
+    background-color:green;
+    height: 75vh;
+    flex-grow: 1;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px ){
+     .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Couleur1 {
+    
+    background-color:red;
+    height: 25vh;
+    width:100vw;
+    
+}
+.Couleur2 {
+    background-color:yellow;
+    height: 50vh;
+    flex-grow: 1;
+}
+
+.Couleur3 {
+    background-color:blue;
+    height: 50vh;
+    flex-grow: 1;
+}
+
+.Couleur4 {
+    background-color:green;
+    width: 100vw;
+    height: 25vh;
+}
+}
+
+
+@media screen and (max-width:767px){
+
+.container{
+ display:flex;
+ flex-direction: column;  
+ flex-grow: 1; 
+}
+
+.Couleur1 {
+    background-color:red;
+    height: 25vh;
+}
+.Couleur2 {
+    background-color:yellow;
+    height: 50vh;
+}
+
+.Couleur3 {
+    background-color:blue;
+    height: 50vh;
+}
+
+.Couleur4 {
+    background-color:green;
+    height: 25vh;
+}
+}
